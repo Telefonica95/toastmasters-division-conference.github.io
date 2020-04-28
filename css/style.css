@@ -843,9 +843,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item {
-  border-bottom: 1px solid #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-top: 25px;
+  padding-bottom: 25px;
   transition: background-color ease-in-out 0.3s;
 }
 
@@ -869,10 +869,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item .speaker img {
   height: 100%;
-  -webkit-transform: translateX(-50%);
+ /* -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  margin-left: 50%;
+  margin-left: 50%;*/
   transition: all ease-in-out 0.3s;
+  border-radius: 50%;
 }
 
 #schedule .schedule-item h4 {
@@ -889,7 +890,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
   color: #004165;
   margin-bottom: 0;
 }
@@ -1131,7 +1131,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #fff;
 }
 
-#faq #faq-list a {
+#faq #faq-list a.faq {
   padding: 18px 0;
   display: block;
   position: relative;
