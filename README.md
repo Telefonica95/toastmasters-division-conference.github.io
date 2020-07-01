@@ -1,2 +1,3 @@
-# toastmasters-division-g-conference.github.io
+#toastmasters events website
+
 Website for the Toastmasters Division Conference
