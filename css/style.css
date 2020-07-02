@@ -694,6 +694,56 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #fff;
 }
+/*--------------------------------------------------------------
+# Events Section
+--------------------------------------------------------------*/
+
+#events {
+  padding: 60px 0;
+}
+
+#events #events-list {
+  padding: 0;
+  list-style: none;
+}
+
+#events #faq-list li {
+  border-bottom: 1px solid #fff;
+}
+
+#events #events-list a.events {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+#events #events-list i {
+  font-size: 35px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#events #events-list p {
+  margin-bottom: 20px;
+}
+
+#events #events-list a.collapse {
+  color: #cd202c;
+}
+
+#events #events-list a.collapsed {
+  color: #000;
+}
+
+#events #events-list a.collapsed i::before {
+  content: "\f055" !important;
+}
 
 /*--------------------------------------------------------------
 # Speakers Section
